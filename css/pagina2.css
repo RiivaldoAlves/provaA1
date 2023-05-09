@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+
+.projeto{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-top: 30px;
+    width: 400px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+    padding: 4px;
+    
+}
+li:hover{
+        background-color: green;
+        border-radius: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    background-color: rgb(78, 76, 76);
+    padding: 10px;
+    margin: -80;
+}

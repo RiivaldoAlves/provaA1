@@ -1,0 +1,60 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.fotoperfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 200px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+    padding: 4px;
+    
+}
+li:hover{
+        background-color: green;
+        border-radius: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    background-color: rgb(78, 76, 76);
+    padding: 10px;
+    margin: -80;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sobremim{
+    background-color: red;
+}
+
+.formacao{
+    background-color: blue;
+}
+
+.cursos{
+    background-color: green;
+}
